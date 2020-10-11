@@ -17,7 +17,7 @@ public class Cuadro extends JButton{ //mi cuadro va a ser un boton
     {
         super(); //para que se ejecute el JButton normal
         double random = Math.random(); //vamos a elegir aleatoreamente si tiene mina o no
-        if(random>0.9)//tengo un 10% de probababilidad de que los cuadros tengan una mina
+        if(random>0.7)//tengo un 30% de probababilidad de que los cuadros tengan una mina
             mina=true;
         else
             mina=false;
